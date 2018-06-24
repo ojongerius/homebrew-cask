@@ -8,7 +8,7 @@ group :debug do
 end
 
 group :development do
-  gem "rubocop-cask", "~> 0.8.3"
+  gem "rubocop-cask", "~> 0.13.0"
 end
 
 group :release do
