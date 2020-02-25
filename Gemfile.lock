@@ -46,7 +46,7 @@ GEM
       pry (~> 0.10)
     public_suffix (2.0.2)
     rainbow (2.1.0)
-    rake (10.4.2)
+    rake (13.0.1)
     rdiscount (2.1.8)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -108,7 +108,7 @@ DEPENDENCIES
   mocha (= 1.1.0)
   pry
   pry-byebug
-  rake
+  rake (>= 12.3.3)
   ronn (= 0.7.3)
   rspec (~> 3.0.0)
   rspec-its
@@ -116,4 +116,4 @@ DEPENDENCIES
   rubocop-cask (~> 0.8.3)
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
